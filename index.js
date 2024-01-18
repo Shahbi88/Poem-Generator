@@ -8,5 +8,7 @@ function generatePoem(event) {
     autoStart: true,
     cursor: "",
     delay: 3,
+    loop: false,
+    deleteSpeed: 0,
   });
 }
