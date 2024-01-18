@@ -7,6 +7,6 @@ function generatePoem(event) {
     strings: ["This is your poem"],
     autoStart: true,
     cursor: "",
-    delay: 1,
+    delay: 3,
   });
 }
