@@ -1,0 +1,34 @@
+h1 {
+  color: rgba(159, 14, 14, 0.827);
+}
+body {
+  display: block;
+  justify-self: center;
+  align-items: center;
+  background-color: antiquewhite;
+  margin: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+form {
+  margin: 40px;
+  display: block;
+  align-items: center;
+  font-size: larger;
+}
+
+input {
+  color: rgb(84, 17, 146);
+  padding: 10px;
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+footer {
+  margin-top: 100px;
+  display: block;
+  align-items: center;
+
+  color: green;
+}
