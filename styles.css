@@ -96,6 +96,7 @@ footer {
   font-size: x-small;
   color: rgba(6, 6, 102, 0.841);
   font-size: larger;
+  max-width: 550px;
 }
 @media (max-width: 600px) {
   body {

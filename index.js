@@ -24,6 +24,7 @@ function generatePoem(event) {
 
   console.log(apiUrl);
 }
+
 let poemSpace = document.querySelector(".hidden");
 let trigger = document.querySelector(".button");
 trigger.addEventListener("click", generatePoem);
