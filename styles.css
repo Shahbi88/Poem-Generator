@@ -37,6 +37,7 @@ div {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
+  margin: auto;
 }
 footer {
   margin-top: 100px;
@@ -51,7 +52,12 @@ footer {
 .poem {
   background-color: rgba(225, 215, 32, 0.222);
   display: block;
-  margin: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   color: rgb(14, 107, 140);
   border-radius: 10px;
+  padding: 15px;
+  word-spacing: 5px;
+  line-height: 70px;
 }

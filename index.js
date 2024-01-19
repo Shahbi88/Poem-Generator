@@ -8,6 +8,7 @@ function displayPoem(response) {
     autoStart: true,
     cursor: "",
   });
+  poemSpace.classList.add("hidden");
 }
 
 function generatePoem(event) {
