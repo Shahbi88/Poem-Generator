@@ -1,14 +1,16 @@
 h1 {
-  color: #c42148;
+  color: #c42147cc;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
+  font-style: italic;
+  margin: 80px;
 }
 body {
   display: block;
   justify-self: center;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: #dfd65330;
   margin: 50px;
   text-align: center;
 }
@@ -28,7 +30,7 @@ form {
 
 input {
   color: rgb(42, 41, 43);
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   border-radius: 10px;
   margin: 10px;
