@@ -40,9 +40,10 @@ input {
   background-color: rgba(140, 178, 188, 0.758);
   padding: 10px;
 }
-.help {
+small {
   font-style: italic;
   color: rgb(13, 0, 128);
+  margin: 30px;
 }
 div {
   text-align: center;
@@ -95,8 +96,8 @@ footer {
     margin: auto;
   }
   h1 {
+    margin-top: 30px;
     font-size: 20px;
-    margin: 10px;
   }
   form {
     display: flex;
@@ -113,13 +114,11 @@ footer {
   }
   .container {
     padding: 10px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     max-width: fit-content;
     justify-content: center;
     margin: auto;
-  }
-  .help {
-    justify-content: center;
   }
 
   input {
@@ -127,9 +126,18 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 5px;
   }
+
   .button {
     margin: auto;
+    padding: 5px;
+  }
+  .help {
+    justify-content: center;
+    margin: auto;
+    margin: 0px;
   }
   .poem {
     font-size: small;
