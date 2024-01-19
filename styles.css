@@ -48,9 +48,10 @@ input {
   border-color: #d15266;
   border-width: 5px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 15px;
   color: rgb(14, 107, 140);
 }
+
 .button {
   background-color: rgba(140, 178, 188, 0.758);
   padding: 10px;
@@ -58,8 +59,8 @@ input {
 }
 small {
   font-style: italic;
-  color: rgb(13, 0, 128);
-  margin: 30px;
+  color: rgba(13, 0, 128, 0.785);
+  font-weight: 350;
 }
 div {
   text-align: center;
