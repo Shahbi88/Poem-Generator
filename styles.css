@@ -13,6 +13,7 @@ body {
   align-items: center;
   background-color: #dfd65330;
   margin: 50px;
+  margin-bottom: 0px;
   text-align: center;
 }
 .allInclusive {
@@ -21,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0px;
+  margin-bottom: 50px;
 }
 .container {
   background-color: rgba(231, 200, 0, 0.225);
@@ -28,25 +30,31 @@ body {
   max-width: fit-content;
   border-radius: 18px;
   margin-top: 0px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 form {
   margin-top: 10px;
   margin-bottom: 0px;
   align-items: center;
   font-size: larger;
-  padding: 30px;
 }
 
 input {
   color: rgb(42, 41, 43);
   padding: 10px;
   text-align: center;
+  border-color: #d15266;
+  border-width: 5px;
   border-radius: 10px;
   margin: 10px;
+  color: rgb(14, 107, 140);
 }
 .button {
   background-color: rgba(140, 178, 188, 0.758);
   padding: 10px;
+  color: #ad0d25;
 }
 small {
   font-style: italic;
@@ -81,7 +89,8 @@ div {
   justify-content: center;
 }
 footer {
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 0px;
   display: block;
   align-items: center;
   font-size: x-small;
