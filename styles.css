@@ -142,6 +142,7 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
     padding: 10px;
+    line-height: 30px;
   }
   footer {
     max-width: 200px;
@@ -149,6 +150,6 @@ footer {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-size: x-small;
+    font-size: 10px;
   }
 }
