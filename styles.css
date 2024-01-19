@@ -152,6 +152,7 @@ footer {
     font-size: 15px;
     padding: 7px;
     margin: 7px;
+    border-width: 2px;
   }
 
   .button {
