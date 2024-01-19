@@ -5,6 +5,7 @@ h1 {
   font-weight: bold;
   font-style: italic;
   margin: 80px;
+  margin-bottom: 40px;
 }
 body {
   display: block;
@@ -21,7 +22,7 @@ body {
   border-radius: 18px;
 }
 form {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 0px;
   align-items: center;
   font-size: larger;
