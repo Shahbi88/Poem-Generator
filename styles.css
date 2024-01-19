@@ -53,20 +53,14 @@ div {
   font-style: italic;
   margin: auto;
 }
-footer {
-  margin-top: 100px;
-  display: block;
-  align-items: center;
-  font-size: x-small;
-  color: rgba(6, 6, 102, 0.841);
-}
+
 .hidden {
   display: none;
 }
 .poem {
   background-color: rgba(225, 215, 32, 0.222);
   display: block;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
   color: rgb(14, 107, 140);
@@ -75,33 +69,85 @@ footer {
   word-spacing: 5px;
   line-height: 70px;
 }
+footer {
+  margin-top: 100px;
+  display: block;
+  align-items: center;
+  font-size: x-small;
+  color: rgba(6, 6, 102, 0.841);
+}
 @media (max-width: 600px) {
   body {
-    margin: none;
-    padding: none;
-  }
-  #userInput {
+    font-size: xx-small;
     max-width: fit-content;
-    padding: 5px;
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    max-height: fit-content;
+  }
+  .allInclusive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    margin: auto;
+  }
+  h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+  }
+  .userInput {
+    max-width: 150px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .container {
     padding: 10px;
+    display: block;
+    max-width: fit-content;
+    justify-content: center;
+    margin: auto;
   }
-  .form {
-    font-size: smaller;
+  .help {
+    justify-content: center;
+  }
+
+  input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .button {
-    font-size: smaller;
-    padding: 8px;
+    margin: auto;
   }
   .poem {
     font-size: small;
   }
   #poem {
-    max-width: 500px;
+    max-width: 300px;
+    display: block;
+    justify-content: center;
     margin-top: 15px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 10px;
+  }
+  footer {
+    max-width: 200px;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 }
