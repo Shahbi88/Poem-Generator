@@ -20,6 +20,7 @@ body {
   justify-content: center;
   max-width: fit-content;
   border-radius: 18px;
+  margin-top: 0px;
 }
 form {
   margin-top: 10px;
@@ -99,12 +100,14 @@ footer {
   h1 {
     margin-top: 30px;
     font-size: 25px;
+    margin-bottom: 20px;
   }
   form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
   }
   .userInput {
     max-width: 150px;
@@ -114,12 +117,11 @@ footer {
     font-size: 15px;
   }
   .container {
-    padding: 10px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     max-width: fit-content;
     justify-content: center;
-    margin: auto;
   }
 
   input {
